@@ -16,6 +16,7 @@
 #define VR_MIN 0            // Valor mínimo dos valores dos eixos
 #define PERIODO 4000        // Valor do Periodo Máximo (WRAP)
 #define PWM_DIVISOR 32.0    // Valor do Dividor do PWM (clkdiv)
+
 // Correlação de Pinos e Componentes da Placa
 #define VRX_PIN 26      // Direcional Joystick no eixo X
 #define VRY_PIN 27      // Direcional Joystick no eixo Y
@@ -31,6 +32,7 @@
 #define MATRIX 7        // Matriz de Leds
 #define BUZZER_A 21     // Buzzer A
 #define BUZZER_B 10     // Buzzer B
+
 // Configuração para I2C
 #define I2C_PORT i2c1 
 #define ADDRESS 0x3C    // Endereço
