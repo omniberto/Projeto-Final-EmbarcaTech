@@ -80,14 +80,14 @@ int main() {
     ssd_setup();
     adc_init();
 
+    // Alerta Sonoro para sinalizar que o programa foi configurado
+    tocar_som(notas("Bb", 3), 250);
+    tocar_som(notas("A", 3), 250);
+
     // Definindo Interrupções
     gpio_set_irq_enabled_with_callback(BUTTON_A, GPIO_IRQ_EDGE_FALL, true, &gpio_irq_handler);      // Botão A
     gpio_set_irq_enabled_with_callback(BUTTON_B, GPIO_IRQ_EDGE_FALL, true, &gpio_irq_handler);      // Botão B
     gpio_set_irq_enabled_with_callback(BUTTON_JOY, GPIO_IRQ_EDGE_FALL, true, &gpio_irq_handler);    // Botão Joystick
-
-    // Alerta Sonoro para sinalizar que o programa foi configurado
-    tocar_som(notas("Bb", 3), 250);
-    tocar_som(notas("A", 3), 250);
 
     while (true) {
         adc_select_input(0); 
