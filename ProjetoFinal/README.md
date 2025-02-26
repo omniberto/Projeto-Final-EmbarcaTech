@@ -42,5 +42,7 @@ O controle do programa é feito através de 8 componentes, separados em 3 como m
     3. Utilize o Componente Vertical para controlar a iluminação do ambiente, quando o modo automático estiver ligado.
         > A iluminação artificial será manipulada conforme a leitura da iluminação ambiente, buscando compensar a iluminação do ambiente.
     4. Utiliza o Botão do Joystick para controlar a iluminação artifical no modo manual.
+    5. A matriz de LEDs se acenderá conforme a iluminação artifical necessária e no modo determinado.
 3. Controle de Temperatura: Joystick e LED RGB:
     1. Utilize o Componente Horizontal para controlar a temperatura do ambiente.
+    2. O LED RGB acenderá suas componentes baseando-se na temperatura lida
