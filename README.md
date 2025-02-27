@@ -7,3 +7,6 @@ A pasta contém as seguintes informações:
 4. Arquivo "pio_matrix.pio" que garante o funcionamento da Matriz de LEDs da placa.
 5. Arquivos "CMakeLists.txt" e "pico_sdk_import.cmake", essenciais para compilação e funcionamento ideal do código.
 6. Pasta ".vscode", fornecendo os arquivos .JSON que fazem o programa rodar no Visual Code Studio.
+
+# Link Youtube
+https://youtu.be/zh0RSm8WYV4
